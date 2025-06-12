@@ -1,4 +1,4 @@
 node_modules
-notes-api-web-server.pem
+aws-ssh-myInstance.pem
 .env
 .prod.env
