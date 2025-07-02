@@ -16,7 +16,7 @@ const getAllEmployees = async () => {
   return result.rows;
 };
 
-// getAllEmployees();
+getAllEmployees();
 
 const insertEmployee = async (id, name, email, address) => {
   // Membuat objek query
@@ -30,4 +30,4 @@ const insertEmployee = async (id, name, email, address) => {
   return result.rows;
 };
 
-insertEmployee('DCD003', 'Dimas Bahyudi', 'dmd@gmail.com', 'Serang');
+insertEmployee('DCD005', 'Dimas Bahyudi', 'dmd123@gmail.com', 'Serang');

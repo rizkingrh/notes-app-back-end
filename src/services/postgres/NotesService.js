@@ -69,7 +69,6 @@ class NotesService {
     };
 
     const result = await this._pool.query(query);
-    console.log(result);
 
     if (!result.rows.length) {
       throw new NotFoundError('Catatan gagal dihapus. Id tidak ditemukan');
