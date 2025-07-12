@@ -2,3 +2,4 @@ node_modules
 aws-ssh-myInstance.pem
 .env
 .prod.env
+src/api/uploads/file
